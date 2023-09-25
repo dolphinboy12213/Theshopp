@@ -1,1 +1,5 @@
-
+services:
+  - type: web
+    name: theshopp
+    env: static
+    staticPublishPath: .
